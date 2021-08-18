@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Dropbox</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+.button {
+  background-color: white; /* Green */
+  color: rgb(0,97,255);
+  padding: 18px;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 2px solid rgb(0,97,255);
+  margin-left: 20%;
+}
+.button5 {
+  background-color: rgb(19,136,222);
+  color: white;
+  padding: 5px;
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+  /* margin: 4px 2px; */
+  height: 40px;
+  cursor: pointer;
+  border: 2px solid rgb(0,97,255);
+  /* margin-left: 20%; */
+  border-radius: 8px;
+}
+.button5:hover{
+ background-color: rgb(19,136,250);
+  color: white;
+}
+
+.button:hover{
+	color: #0000FF;
+  border: 2px solid #0000FF;
+
+}
+.button4 {border-radius: 12px;}
+    
+.navbar {
+    width: 100%;
+    height:80px;
+    /* overflow: hidden; */
+    /* margin:0; */
+  background-color: white;
+  border-bottom: 1px solid rgb(209,204,198);
+}
+
+.navbar img {
+    display: block;
+    width: 40px;
+    height: 40px;
+
+}
+
+.sidenav {
+height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  /* padding-top: 20px; */
+  margin-top:120px;
+}
+
+.main {
+  margin-left: 50%;
+  font-size: 28px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+p{
+    font: atlasgrotesk;
+    font-size: 20px;
+    margin-top: 10%;
+}
+
+.fa {
+  /* padding: 20px; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  width: 50%;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-google {
+  background: rgb(26,115,232);
+  color: white;
+}
+
+.fa-apple {
+  background: black;
+  color: white;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(209,204,198);
+  background-color: white;
+  color: rgb(129,133,151);
+}
+
+</style>
+
+</head>
+
+<body>  
+        <div class="navbar">
+            <button class="button button4"><b>Try Dropbox Business</b></button>
+            <!-- <img src="dropboxregister.PNG" style="float: center; width: 20px; height: 20px; "></img> -->
+            <a href="#" style="float: right; margin-right: 25%; margin-top: 15px; text-decoration: none; font-size: 17px;">Download the app</a>
+            <!-- <img src="dropboxregister.PNG" alt="Logo image"> -->
+        </div>
+
+
+        <div class="sidenav">
+            <img src="image.PNG" style="margin-left: 35%; width:60%; margin-top: 5%;"></img>
+        </div>
+
+        <div class="main">
+            
+            <div style="overflow: hidden;">
+                <p style="float: left;">Sign in</p>
+                <p style="float: right; margin-right: 50%; font-size: 16px; ">or <a href="#" style="text-decoration: none;">create an account</a></p>
+                <!-- <p  style="float: right"><a href="#">create an account</a></p> -->
+            </div>
+
+            <a href="#" class="fa fa-google">   Sign in with Google</a>
+            <br>
+            <a href="#" class="fa fa-apple">   Sign in with Apple</a>
+
+
+            <hr style="width:50%; margin-right: 70%;" >
+
+
+            <form>
+                <input type="text"  value="Email">
+                <input type="text"  value="Password">
+
+                <br>
+                <label style="font-size: 15px;">
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+
+                  <button class="button button5"><b>Sign In</b></button>
+                  <br>
+                  <a href="#" style="text-decoration: none; font-size: 14px;">Forget Your Password ?</a>
+              </form>
+
+
+        </div>
+
+</body>
+</html>
